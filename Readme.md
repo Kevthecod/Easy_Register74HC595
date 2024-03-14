@@ -2,21 +2,22 @@
 ========= # **Small librairy for making very easier usage of CI 74HC595**
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ## Hardware connection
-++** dataPin : CI pin 14;
-++** latchPin : CI pin  12 ;
-++** clockPin : CI pin 11;
+- dataPin : CI pin 14;
+-  latchPin : CI pin  12 ;
+- clockPin : CI pin 11;
+  
 ## ====== **OUTPUT** ================
 | Qi   | CI pin|
-| ------------ |
+| ---- | ----- |
 |  Qo  | 15    |
-| Q1  | 1      |
-| Q2  | 2      |
-| Q3  | 3      |
-| Q4  | 4      |
-| Q5  | 5      |
-| Q6  | 6      |
-| Q7  | 7      |
-| Q7' | 9 Serial data output === used for adding other one CI in serie(cascade) with the first one |
+| Q1   | 1     |
+| Q2   | 2     |
+| Q3   | 3     |
+| Q4   | 4     |
+| Q5   | 5     |
+| Q6   | 6     |
+| Q7   | 7     |
+| Q7'  | 9 Serial data output === used for adding other one CI in serie(cascade) with the first one |
 
 - CI pin 10 connected to Vcc ;
 -  Ci pin 13 connected to GND ;
