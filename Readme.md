@@ -1,5 +1,5 @@
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-========= # **Small librairy for making very easier usage of CI 74HC595**
+      # **Small librairy for making very easier usage of CI 74HC595**
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ## Hardware connection
 - dataPin : CI pin 14;
@@ -26,13 +26,13 @@
 
 usage of keyword " LSBFIRST " to make Q0 as Low signifative bit.
 
-Register class 
-*******
+## Register class 
+  ---------------
 
--- SetRegPin() : used to define dataPin, latchPin and clockPin as OUTPUT;
--- initOut() : put at Low level the eight output of CI;
--- Set(int ) : put at High level the output giving as argument;
--- Reset(int ) : put at Low level the output giving as argument;
--- selectOut(int , char ) : return the binary code of output which will be set to High or low.
--- ToByte(String ) : convertes the string argument to binary.
+- SetRegPin() : used to define dataPin, latchPin and clockPin as OUTPUT;
+- initOut() : put at Low level the eight output of CI;
+- Set(int ) : put at High level the output giving as argument;
+- Reset(int ) : put at Low level the output giving as argument;
+- selectOut(int , char ) : return the binary code of output which will be set to High or low.
+- ToByte(String ) : convertes the string argument to binary.
 
