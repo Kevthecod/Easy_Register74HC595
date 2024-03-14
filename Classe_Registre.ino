@@ -18,13 +18,11 @@ void loop() {
     {
       myRegis.Set(i);
       delay(lead);
-      //myRegis.Reset(i);
     }
     for (int i = 0; i < 8; i++) 
     {
       myRegis.Reset(7-i);
       delay(lead);
-      //myRegis.Reset(7-i);
     }
   }
 }
